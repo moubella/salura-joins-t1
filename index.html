@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BREAKING: salurazero signs with T1, takes over starting jungle spot from Oner » Rift Dispatch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff; --surface:#f3f5f8; --ink:#14181f; --muted:#5d6675; --rule:#dfe3ea;
+  --brand:#0e2a47; --brand-ink:#ffffff; --accent:#d81f3c; --link:#b3152f;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#10141a; --surface:#19202a; --ink:#e9edf3; --muted:#9aa5b5; --rule:#2a3340;
+    --brand:#0a1c30; --brand-ink:#ffffff; --accent:#ff4a63; --link:#ff7286;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#10141a; --surface:#19202a; --ink:#e9edf3; --muted:#9aa5b5; --rule:#2a3340;
+  --brand:#0a1c30; --brand-ink:#ffffff; --accent:#ff4a63; --link:#ff7286;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Archivo",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.5}
+a{color:var(--link)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+
+/* header */
+.site-head{background:var(--brand);color:var(--brand-ink)}
+.site-head .wrap{display:flex;align-items:center;gap:28px;min-height:64px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;color:var(--brand-ink);text-decoration:none;font-weight:800;font-size:1.35rem;letter-spacing:-.02em}
+.logo svg{width:30px;height:30px;flex:none}
+.nav{display:flex;gap:22px;flex-wrap:wrap;flex:1}
+.nav a{color:var(--brand-ink);text-decoration:none;font-weight:600;font-size:.95rem;opacity:.9}
+.nav a:hover{opacity:1;text-decoration:underline}
+.btn{background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;padding:8px 16px;border-radius:4px}
+
+.ticker{background:var(--accent);color:#fff;font-weight:700;font-size:.9rem}
+.ticker .wrap{padding-top:8px;padding-bottom:8px}
+.ticker a{color:#fff}
+
+.ad{margin:22px auto;max-width:800px;text-align:center}
+.ad small{display:block;color:var(--muted);font-size:.72rem;margin-bottom:4px}
+.ad a{display:flex;align-items:center;justify-content:center;gap:14px;min-height:90px;padding:12px 18px;background:var(--surface);border:1px solid var(--rule);color:var(--ink);text-decoration:none;font-weight:700}
+.ad a span{font-weight:500;color:var(--muted)}
+
+/* layout */
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:48px;padding-bottom:56px}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr);gap:32px}}
+
+h1{font-size:clamp(1.9rem,4.4vw,3rem);line-height:1.08;letter-spacing:-.025em;font-weight:800;margin:8px 0 18px;text-wrap:balance}
+.flag{display:inline-block;background:var(--accent);color:#fff;font-weight:800;font-size:.8rem;padding:3px 9px;border-radius:3px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;color:var(--muted);font-size:.9rem;margin-bottom:18px}
+.meta a{font-weight:700;text-decoration:none}
+.avatar{width:32px;height:32px;border-radius:50%;background:var(--brand);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:.8rem;margin-right:8px;vertical-align:middle}
+figure{margin:0 0 14px}
+figure svg{display:block;width:100%;height:auto;border-radius:4px}
+figcaption{color:var(--muted);font-size:.82rem;margin-top:6px}
+
+.share{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 22px}
+.share a{font-size:.82rem;font-weight:700;text-decoration:none;color:var(--ink);border:1px solid var(--rule);padding:6px 12px;border-radius:4px}
+.share a:hover{background:var(--surface)}
+
+.body{font-family:"Source Serif 4",Georgia,"Times New Roman",serif;font-size:1.14rem;line-height:1.7;max-width:68ch}
+.body p{margin:0 0 1.15em}
+.body .lede{font-weight:600}
+.body h2{font-family:"Archivo",system-ui,sans-serif;font-size:1.4rem;letter-spacing:-.01em;margin:1.6em 0 .5em}
+blockquote{margin:1.4em 0;padding:4px 0 4px 20px;border-left:4px solid var(--accent);font-size:1.22rem}
+blockquote cite{display:block;font-family:"Archivo",system-ui,sans-serif;font-style:normal;font-size:.88rem;color:var(--muted);margin-top:8px}
+
+.stats{font-family:"Archivo",system-ui,sans-serif;background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:18px 20px;margin:1.6em 0}
+.stats h3{margin:0 0 10px;font-size:1rem}
+.stats dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;margin:0}
+.stats dt{color:var(--muted);font-size:.8rem}
+.stats dd{margin:0;font-weight:800;font-size:1.25rem}
+.stats p{font-size:.85rem;margin:12px 0 0;color:var(--muted)}
+
+.tags{font-family:"Archivo",system-ui,sans-serif;font-size:.9rem;border-top:1px solid var(--rule);padding-top:16px;margin-top:28px}
+.tags a{margin-right:4px}
+
+aside h2{font-size:1.05rem;margin:0 0 12px;padding-bottom:8px;border-bottom:3px solid var(--accent)}
+aside section{margin-bottom:34px}
+.post{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:12px 0;border-bottom:1px solid var(--rule);text-decoration:none;color:var(--ink)}
+.post:hover strong{text-decoration:underline}
+.thumb{height:62px;border-radius:3px;background:linear-gradient(135deg,var(--brand),var(--accent))}
+.thumb.b{background:linear-gradient(135deg,#1f6f5c,var(--brand))}
+.thumb.c{background:linear-gradient(135deg,#6b3fa0,var(--brand))}
+.thumb.d{background:linear-gradient(135deg,#c2791b,var(--accent))}
+.post strong{display:block;font-size:.95rem;line-height:1.25}
+.post time{color:var(--muted);font-size:.78rem}
+.cats{list-style:none;margin:0;padding:0}
+.cats li{border-bottom:1px solid var(--rule)}
+.cats a{display:block;padding:9px 0;color:var(--ink);text-decoration:none;font-weight:600;font-size:.95rem}
+.cats a:hover{color:var(--link)}
+
+footer{background:var(--brand);color:var(--brand-ink);padding:34px 0 26px;font-size:.9rem}
+footer .cols{display:flex;flex-wrap:wrap;gap:16px 40px;justify-content:space-between;align-items:center}
+footer a{color:var(--brand-ink);margin-right:16px;opacity:.85}
+footer small{display:block;margin-top:18px;opacity:.6;font-size:.74rem}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#d81f3c"/><path d="M9 24V8h8.2c3.6 0 5.8 2 5.8 5 0 2.2-1.2 3.8-3.2 4.5L23.6 24h-4.2l-3.3-5.8H12.7V24H9zm3.7-9h4.1c1.5 0 2.4-.7 2.4-2s-.9-1.9-2.4-1.9h-4.1V15z" fill="#fff"/></svg>
+      Rift Dispatch
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Esports</a>
+      <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">League of Legends</a>
+      <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Transfers</a>
+      <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">LCK</a>
+      <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Opinion</a>
+    </nav>
+    <a class="btn" href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Newsletter</a>
+  </div>
+</header>
+
+<div class="ticker"><div class="wrap">Developing story: <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">T1 confirms new starting jungler for 2027</a>. This article is being updated.</div></div>
+
+<div class="wrap">
+  <div class="ad">
+    <small>Advertisement</small>
+    <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Climb like a pro. <span>Study the solo queue history everyone in Seoul is watching.</span></a>
+  </div>
+
+  <div class="grid">
+    <main>
+      <article>
+        <span class="flag">Breaking</span>
+        <h1>BREAKING: salurazero signs with T1, takes over starting jungle spot from Oner in shock off-season move</h1>
+
+        <div class="meta">
+          <span><span class="avatar" aria-hidden="true">DW</span>By <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Dana Whitlock</a></span>
+          <span>November 17, 2026</span>
+          <span>in <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">News</a></span>
+          <span>Reading time: 3 minutes</span>
+        </div>
+
+        <figure>
+          <img src="banner.png" alt="T1 2027 roster" style="display:block;width:100%;height:auto;border-radius:4px">
+          <figcaption>T1’s 2027 roster, featuring new jungler salurazero.</figcaption>
+        </figure>
+
+        <div class="share" aria-label="Share">
+          <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Reddit</a>
+          <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Threads</a>
+          <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">X</a>
+        </div>
+
+        <div class="body">
+          <p class="lede">In what is already being called the most unexpected signing in League of Legends history, T1 has added European solo queue player <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">salurazero</a> as its starting jungler for the 2027 season, taking over the role held by Oner since 2021.</p>
+
+          <p>The move ends weeks of speculation that the organisation was scouting outside Korea. Few expected the search to end on the EUW ladder, and fewer still expected it to end with a player who has never played a professional match.</p>
+
+          <p>According to a source with knowledge of the negotiations, T1 scouts first noticed salurazero through his <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">ranked match history</a>, which the source described as “impossible to ignore.” A trial block in Seoul reportedly followed within days.</p>
+
+          <blockquote>
+            “We stopped the scrim after the second game. There was nothing left to evaluate. He paths like he has already seen the replay.”
+            <cite>A source close to the team, speaking on condition of anonymity</cite>
+          </blockquote>
+
+          <h2>Why T1 believes he is ready</h2>
+
+          <p>Replacing a multiple-time world champion is not a small ask. People familiar with the trial say the coaching staff came away convinced on three points: early game tempo, objective control, and a calm under pressure that one observer compared to “a man waiting for a bus.”</p>
+
+          <p>Chief among the reasons, sources say, was his remarkable <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">47% win rate</a>. Where other organisations saw a player losing slightly more often than a coin flip, T1’s analysts saw something rarer: consistency.</p>
+
+          <blockquote>
+            “Anyone can win more than half their games. Losing 53% of them and still pressing the queue button every single evening takes a mentality you simply cannot coach.”
+            <cite>A source close to the team, speaking on condition of anonymity</cite>
+          </blockquote>
+
+          <p>The same source noted that the 47% was achieved “entirely without help,” citing salurazero’s own long-standing position that his laners have been responsible for every one of his defeats since 2019.</p>
+
+          <p>Analysts who have reviewed <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">his recent games</a> point to an unusually wide champion pool and a habit of appearing in the enemy jungle roughly four seconds before anyone thinks to ward it. One LCK caster called his smite timing “frankly rude.”</p>
+
+          <div class="stats">
+            <h3>salurazero at a glance</h3>
+            <dl>
+              <div><dt>Role</dt><dd>Jungle</dd></div>
+              <div><dt>Server</dt><dd>EUW</dd></div>
+              <div><dt>Win rate</dt><dd>47% (elite)</dd></div>
+              <div><dt>Pro matches</dt><dd>0</dd></div>
+              <div><dt>Smites lost to lag</dt><dd>All of them</dd></div>
+              <div><dt>Contract</dt><dd>Through 2028</dd></div>
+            </dl>
+            <p>Full ranked record and champion statistics are available on <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">his OP.GG profile</a>.</p>
+          </div>
+
+          <p>The synergy question is the obvious one. T1’s lineup has been built on years of shared stage time, and a newcomer arriving from European solo queue will have to learn a new language, a new meta and a new mid laner’s expectations all at once. Those who watched the trial insist it will not be a problem. He has reportedly already asked whether “/mute all” works on stage, and whether the LCK provides a surrender button at fifteen minutes.</p>
+
+          <blockquote>
+            “I was in the middle of a ranked game when my phone rang. I almost didn’t pick up because we had Baron in thirty seconds. I’m ready. I have been ready since Season 9.”
+            <cite><a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">salurazero</a>, in a statement shared with Rift Dispatch</cite>
+          </blockquote>
+
+          <p>Asked in an interview with Sjokz how he plans to handle the scrutiny that comes with the role, salurazero offered what he described as his favourite quote, which he confirmed he wrote himself:</p>
+
+          <blockquote>
+            “They don’t hate me because I’m bad. They hate me because I’m the best, and the best always walks alone. A lion does not lose sleep over the opinion of his bot lane. I didn’t choose greatness. Greatness checked my <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">OP.GG</a> and chose me.”
+            <cite><a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">salurazero</a>, 47% win rate</cite>
+          </blockquote>
+
+          <p>He is understood to have the quote set as his phone wallpaper. The interview ended shortly afterwards.</p>
+
+          <h2>What happens next</h2>
+
+          <p>T1 has not yet commented publicly on Oner’s plans for 2027, and no further roster changes have been announced. salurazero is expected to relocate to Seoul before the end of the month and begin bootcamp immediately, with his first official appearance pencilled in for the opening week of the LCK season.</p>
+
+          <p>The contract is understood to contain several unusual clauses. One guarantees that any stolen Baron will be officially recorded as “jungle diff, but the other way.” Another permits him to type “gg ez” after wins only, a restriction he is said to have negotiated against for several hours. A third confirms that he will not be required to gank a losing lane, in line with his existing policy.</p>
+
+          <p>Reaction from fans has ranged from disbelief to open panic. Within an hour of the news breaking, <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">his profile</a> had become one of the most searched on EUW, as thousands of players tried to work out who exactly he is and why they had not heard of him sooner. Several of his former solo queue teammates have since come forward to say that they had, in fact, heard of him, and had reported him.</p>
+
+          <p>For more transfer news, read our breakdown of <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">every jungle pathing clip from the Seoul trial</a> and our explainer on <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">how solo queue scouting actually works</a>.</p>
+
+          <div class="tags">Tags:
+            <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Esports</a>,
+            <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">League of Legends</a>,
+            <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">LCK</a>,
+            <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">T1</a>,
+            <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Transfers</a>,
+            <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">salurazero</a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <aside>
+      <section>
+        <h2>Related posts</h2>
+        <a class="post" href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener"><span class="thumb"></span><span><strong>Who is salurazero? Everything we know about T1’s new jungler</strong><time>November 17, 2026</time></span></a>
+        <a class="post" href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener"><span class="thumb b"></span><span><strong>EUW solo queue in shock as one of its own heads to Seoul</strong><time>November 17, 2026</time></span></a>
+        <a class="post" href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener"><span class="thumb c"></span><span><strong>Five games that reportedly sealed the salurazero trial</strong><time>November 16, 2026</time></span></a>
+        <a class="post" href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener"><span class="thumb d"></span><span><strong>Opinion: the off-season just got its biggest story</strong><time>November 16, 2026</time></span></a>
+      </section>
+
+      <section>
+        <h2>Browse by category</h2>
+        <ul class="cats">
+          <li><a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Editorials</a></li>
+          <li><a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Events</a></li>
+          <li><a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Guides</a></li>
+          <li><a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Interviews</a></li>
+          <li><a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">News</a></li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <a class="logo" href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Rift Dispatch</a>
+      <div>
+        <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">About us</a>
+        <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Our staff</a>
+        <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Contact</a>
+        <a href="https://op.gg/lol/summoners/euw/salurazero-EUW" target="_blank" rel="noopener">Privacy policy</a>
+      </div>
+    </div>
+    <small>©2026 Rift Dispatch. This article is a parody made for a friend and is not affiliated with T1, Riot Games or any player mentioned.</small>
+  </div>
+</footer>
+
+</body>
+</html>
